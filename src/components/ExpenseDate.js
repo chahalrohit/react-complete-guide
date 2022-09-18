@@ -1,7 +1,6 @@
-import "./ExpenseItem.css";
+import "./ExpenseDate.css";
 
 function ExpenseDate(props) {
-  console.log("expenseDate props -->> " + JSON.stringify(props.date));
   const month = new Date(props.date).toLocaleString("en-US", { month: "long" });
   const day = new Date(props.date).toLocaleString("en-US", { day: "2-digit" });
   const year = new Date(props.date).getFullYear();

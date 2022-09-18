@@ -7,25 +7,6 @@
   margin: 1rem 0;
   border-radius: 12px;
   background-color: #4b4b4b;
-  color: white;
-}
-
-.expense-date {
-  background-color: black;
-  padding-left: 10px;
-  padding-right: 10px;
-  border-radius: 5px;
-}
-.expense-date__month {
-  color: cyan;
-  text-align: center;
-}
-.expense-date__day {
-  color: yellowgreen;
-}
-
-.expense-date__year {
-  color: burlywood;
 }
 
 .expense-item__description {
